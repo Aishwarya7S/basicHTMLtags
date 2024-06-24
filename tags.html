@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML tags</title>
+        <style>
+            table, th, td {
+               border:1px double black; }
+            div {
+               background-color:yellowgreen; }
+            section{
+               display:flex; }
+            aside {
+               width: 27%;
+               padding-left: 37px;
+               margin-left: 10px;
+               float: left;
+               font-style: Courier New;
+               background-color: lightgray; }
+            footer{
+               float:right; 
+               width:100%; }
+            
+        </style>
+    </head>
+    <body>
+        <!-- Marquee tag -->
+         <marquee behavior="on" direction="right" bgcolor="yellow" scrollamount="10"><h3>Welcome</h3> </marquee>
+        <!-- Heading tag -->
+         <h1>Heading 1 tag</h1>
+         <h2>Heading 2 tag</h2>
+         <h3>Heading 3 tag</h3>
+         <h4>Heading 4 tag</h4>
+         <h5>Heading 5 tag</h5>
+         <h6>Heading 6 tag</h6><hr>
+         <!-- Paragraph tag -->
+         <p>This is paragraph tag</p><hr>
+         <!-- Link tag -->
+         <a href="https://www.w3schools.com">This is link tag</a><hr>
+         <!-- Image tag -->
+          <h4>Image tag:</h4>
+         <img src="C:\Users\aishw\Pictures\htmlimg.png" width="370" height="370"><hr>
+         <!-- Bold text tag -->
+         <p>This is  <b>bold </b> text tag</p><hr>
+         <!-- Italic text tag -->
+         <p>This is  <i>italic </i> text tag</p><hr>
+         <!-- Important text tag -->
+         <p>This is <strong>important</strong> text tag </p><hr>
+         <!-- Emphasized text tag -->
+         <p>This is  <em>emphasized</em> text tag</p><hr>
+         <!-- Marked text tag -->
+         <p>This is  <mark>marked</mark> text tag</p><hr>
+         <!-- Smaller text tag -->
+         <p>This is  <small>small </small> text tag</p><hr>
+         <!-- Deleted text tag --> 
+         <p>This is  <del> inserted</del> deleted text tag</p><hr>
+         <!-- Inserted taxt tag -->
+         <p>This is  <del> deleted </del><ins> inserted</ins> text tag</p><hr>
+         <!-- Subscripted text tag -->
+         <p>This is  <sub> subscripted </sub> text tag </p><hr>
+         <!-- Superscripted text tag -->
+         <p>This is  <sup>superscripted </sup> text tag </p><hr>
+         <!-- Table tag -->
+          <h4>Table:</h4>
+         <table>
+            <tr>
+              <th style="width: 50%;">Student Name</th>
+              <th style="width: 30%">Brand Name</th>
+              <th style="width: 20%;">Color Name</th>
+            </tr>
+            <tr>
+              <td>Atharva</td>
+              <td>Lenova</td>
+              <td>Grey</td>
+            </tr>
+            <tr>
+              <td>Anirudh</td>
+              <td>HP</td>
+              <td>Black</td>
+            </tr>
+         </table><hr>
+         <!-- Unordered list tag -->
+         <h4>Unordered list:</h4>
+         <ul>
+            <li>Chocolate</li>
+            <li>Biriyani</li>
+            <li>Coffee</li>
+         </ul><hr>
+         <!-- Ordered list tag -->
+         <h4>Ordered list:</h4>
+         <ol>
+            <li>Chocolate</li>
+            <li>Biriyani</li>
+            <li>Coffee</li>    
+         </ol><hr>
+         <!-- Description list tag -->
+         <h4>Description list:</h4>
+         <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+         </dl><hr>
+         <!-- Form tag -->
+         <form>
+            <h4>Form: </h4>
+            <fieldset>
+               <legend>Form example:</legend>
+               <p>The <em> input type="text"</em> defines </p>
+               <label for="name">NAME:</label>
+               <input type="text" id="name" name="name"><br>
+               <p>The <em> input type="email"</em> defines</p>
+               <label for="email">EMAIL:</label>
+               <input type="email" id="email" name="email"><br>
+               <p>The <em> input type="password"</em> defines</p>
+               <label for="pwd">Password:</label>
+               <input type="password" id="pwd" name="pwd"><br>
+               <p>The <em> input type="radio"</em> defines </p>
+               <input type="radio" id="male" name="gender" value="Male">
+               <label for="male">MALE</label>
+               <input type="radio" id="female" name="gender" value="Female">
+               <label for="female">FEMALE</label><br>
+               <p>The <em> input type="select"</em>defines</p>
+               <label for="person">Choose:</label>
+               <select id="person">
+                  <option value=""></option>
+                  <option value="stu">Student</option>
+                  <option value="fac">Faculty</option>
+                  <option value="emp">Employee</option>
+                  <option value="oth">Other</option>
+               </select>
+               <p>The <em> input type="checkbox"</em> defines</p>
+               <input type="checkbox" id="cs" name="cs" value="cs">
+               <label for="cs"> Computer science</label><br>
+               <input type="checkbox" id="bio" name="bio" value="bio">
+               <label for="bio"> Biology</label><br>
+               <input type="checkbox" id="arts" name="arts" value="artst">
+               <label for="arts">Arts</label><br>
+               <input type="checkbox" id="maths" name="maths" value="maths">
+               <label for="maths">Maths</label><br><br>
+               <p>The <em> input type="date"</em>  defines</p>
+               <label for="dob">Date of Birth:</label>
+               <input type="date" id="dob" name="dob">
+               <p>The <em> input type="number"</em>  defines</p>
+               <label for="age">Age:</label>
+               <input type="number" id="age" name="age" min="1" max="50">
+               <p>The <em> input type="color"</em>  defines</p>
+               <label for="color">Select your favorite color:</label>
+               <input type="color" id="color" name="color" value="#ff0000">
+               <p>The <em> input type="search"</em>  defines</p>
+               <label for="search">Search:</label>
+               <input type="search" id="gsearch" name="search">
+               <p>The <em> input type="range"</em>  defines</p>
+               <label for="rate">Rating:</label>
+               <input type="range" id="rate" name="rate" min="0" max="10">
+               <p>The <em> input type="button"</em>  defines</p>
+               <input type="button" value="Submit">
+            </fieldset>   
+         </form><hr>
+         <!-- Symbol tag-->
+         <h4>Symbol:</h4>
+         <span style='font-size:100px;'>&#9748;</span><hr>
+         <!-- Nav tag -->
+         <h4>Nav tag:</h4>
+         <nav>
+            <a href="#">Home</a> ||
+            <a href="#">Login</a> ||
+            <a href="#">About</a> ||
+            <a href="#">Setting</a> 
+        </nav><hr>
+         <!-- Audio tag -->
+         <h4>Audio tag :</h4>
+         <audio controls>
+           <source src="C:\Users\aishw\Downloads\audio.mpeg.mpeg" type="audio/ogg">
+         </audio><hr>
+         <!-- Video tag -->
+          <h4>Video tag :</h4>
+         <video width="370" height="230" controls>
+            <source src="C:\Users\aishw\Downloads\abdulkalam quotes.mp4" type="video/mp4">
+         </video><hr>
+         <!-- Div tag -->
+         <h4>Div tag:</h4>
+         <p>This is text. <div>I am a div tag</div></p><hr>
+         <!-- Short quotations tag -->
+         <h4>q tag:</h4>
+         <p>My favourite quote is <q>Love what you do;do what you love </q></p><hr>
+         <!-- Blockquote tag -->
+         <h4>Blockquote tag:</h4>
+         <p>The next statement is an example of blockquote tag.</p>
+         <blockquote>Nature is the ultimate source of our living. Both living and non-living things include nature, and everyone is interdependent, which helps maintain the ecosystem. Plants, animals, and humans all depend on nature for their survival. It supplies oxygen, sunlight, soil, water, and other necessary components.</blockquote><hr>
+         <!-- Formatting work title -->
+         <h4>Cite tag:</h4>
+         <cite>The Theory of Computation </cite>book wriiten  by  A.A.Puntambekar</p><hr>
+         <!-- Text direction tag -->
+         <h4>Direction tag:</h4>
+         <bdo dir="rtl"> This statement will be written from right to left</bdo><hr>
+         <!-- Keybord input tag -->
+         <h4>Keyboard input tag:</h4>
+         <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save</p> <hr>
+         <!-- Menu element tag -->
+         <h4>Menu tag:</h4>
+         <menu>
+            <li>Dosa</li>
+            <li>Biriyani</li>
+            <li>Noodles</li>
+         </menu><hr>
+          <!-- Section tag -->
+           <h4> Section tag :</h4>
+         <section>
+            <h1>Nature</h1>
+            <p>Nature is the ultimate source of our living. Both living and non-living things include nature, and everyone is interdependent, which helps maintain the ecosystem. Plants, animals, and humans all depend on nature for their survival. It supplies oxygen, sunlight, soil, water, and other necessary components.</p>
+         </section><hr>
+          <!-- Aside tag -->
+         <h4>Aside tag:</h4>
+         <h1>Nature</h1>
+         <aside>
+            <p>Nature is the ultimate source of our living. Both living and non-living things include nature, and everyone is interdependent, which helps maintain the ecosystem. Plants, animals, and humans all depend on nature for their survival. It supplies oxygen, sunlight, soil, water, and other necessary components.</p>
+         </aside>
+         <p>Nature is beautiful, yet it is difficult to put into words. Nature is honoured with a variety of religious traditions. The primary source of life on Earth is the components that exist naturally</p>
+         <p>The oxygen produced by a single fully-grown tree is enough to supply ten people, and the amount of oxygen released by a forest is unquestionably adequate for a metropolis or town. Nature is a healer, and it is the foundation for many industries.</p>
+         <p>The benefits of sunlight and fresh air to our health cannot be overstated. Nature has a variety of beneficial effects on our bodies. For recuperation and vacations, people choose natural settings. Their primary goal is to introduce their children to the benefits of natural beauty.</p><hr>
+         <!-- Figure and Figure caption tag -->
+         <h4>Figure and figure caption tag:</h4>
+         <figure>
+            <img src="C:\Users\aishw\Pictures\htmlimg.png" alt="html" style="width:137px">
+            <figcaption>HTML5  </figcaption>
+         </figure><hr>
+         <!-- Details element tag -->
+         <h4>Details tag:</h4>
+         <details>
+           <summary>Nature</summary>
+           <p>Nature is the ultimate source of our living. Both living and non-living things include nature, and everyone is interdependent, which helps maintain the ecosystem. Plants, animals, and humans all depend on nature for their survival. It supplies oxygen, sunlight, soil, water, and other necessary components.</p>
+         </details><hr>
+         <!-- Meter element tag -->
+         <h4>Meter tag:</h4>
+         <label for="storagep"> Phone Storage:</label>
+         <meter id="storagep" value="7" min="0" max="10">7 out of 10</meter><br>
+         <label for="storages">System storage:</label>
+         <meter id="storages" value="0.3">30%</meter><hr>
+         <!-- Canvas tag -->
+          <h4>Canvas tag:</h4>
+          <canvas id="myCanvas" width="300" height="150" style="border:1px dotted red"></canvas><hr>
+         <!-- Dialog tag -->
+          <h4>Dialog tag:</h4>
+          <p>This is a text</p>
+          <p>This is a text</p>
+          <dialog open>This is an open dialog window</dialog>
+          <p>This is a text</p>
+          <p>This is a text</p><hr>
+         <!-- Code element tag -->
+          <h4>Code tag:</h4>
+          <p>The HTML <code>image</code> tag is used  to insert image into webpage.</p><hr>
+         <!-- Footer tag -->
+         <footer>
+            <p>Done by:<br> AISHWARYA S</p>
+         </footer>
+         <!-- Horizontal tag -->
+         <hr style="height:3px;background-color:dodgerblue">
+          
+      </body>
+</html>
