@@ -1,6 +1,8 @@
 # HTML Tags 
 
 This project demonstrates the usage of various **HTML tags** to create a webpage with diverse formatting and structure. It includes examples of text formatting, tables, forms, images, media, and more.
+This webpage is designed to provide a comprehensive overview of different HTML tags, helping learners and developers understand how to use them in practice. It covers basic to advanced tags, such as formatting text, creating lists, tables, embedding media, and structuring the layout using semantic HTML5 tags.
+The webpage is a learning resource, demonstrating how various HTML tags work in real-world scenarios. You can modify or expand on this project by adding more examples or styling them differently using CSS.
 
 ## Features:
 - **Text Formatting Tags**: Showcases usage of tags like `<b>`, `<i>`, `<strong>`, `<em>`, `<mark>`, `<sub>`, and `<sup>`.
@@ -16,13 +18,3 @@ This project demonstrates the usage of various **HTML tags** to create a webpage
 - **CSS**: For styling the elements on the page.
 - **JavaScript**: (Optional) Can be added for interactive features (if required).
 
-## Overview:
-This webpage is designed to provide a comprehensive overview of different HTML tags, helping learners and developers understand how to use them in practice. It covers basic to advanced tags, such as formatting text, creating lists, tables, embedding media, and structuring the layout using semantic HTML5 tags.
-
-## Installation:
-To view the project locally:
-1. Download the project files.
-2. Open the `index.html` file in your browser.
-
-## Usage:
-The webpage is a learning resource, demonstrating how various HTML tags work in real-world scenarios. You can modify or expand on this project by adding more examples or styling them differently using CSS.
