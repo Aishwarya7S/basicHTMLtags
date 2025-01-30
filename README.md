@@ -16,5 +16,5 @@ The webpage is a learning resource, demonstrating how various HTML tags work in 
 ## Technologies Used:
 - **HTML**: For building the structure and content of the page.
 - **CSS**: For styling the elements on the page.
-- **JavaScript**: (Optional) Can be added for interactive features (if required).
+
 
